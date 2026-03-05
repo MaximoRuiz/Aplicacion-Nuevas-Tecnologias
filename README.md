@@ -1,1 +1,116 @@
 # Aplicacion-Nuevas-Tecnologias
+
+# TP01 — Productos y Servicios que utilizan Machine Learning
+
+## 1. Netflix
+
+**Problema que resuelve con ML**  
+Netflix utiliza machine learning para recomendar películas y series personalizadas a cada usuario. El objetivo es ayudar a las personas a encontrar contenido relevante dentro de un catálogo muy grande.
+
+**Tipo de ML**  
+Supervisado (principalmente).
+
+**Por qué**  
+El sistema aprende a predecir qué contenido le gustará a un usuario basándose en datos etiquetados como:
+- calificaciones
+- historial de visualización
+- interacciones con contenido
+
+El modelo intenta **predecir la probabilidad de que un usuario vea o disfrute un contenido**.
+
+**Datos que probablemente necesita**
+- Historial de visualización  
+- Calificaciones o likes  
+- Tiempo de reproducción  
+- Géneros preferidos  
+- Datos de usuarios con gustos similares  
+
+---
+
+## 2. Spotify
+
+**Problema que resuelve con ML**  
+Spotify usa machine learning para recomendar música y crear playlists personalizadas como *Discover Weekly*, analizando el comportamiento musical de los usuarios.
+
+**Tipo de ML**  
+Principalmente **no supervisado y supervisado**.
+
+**Por qué**
+- **No supervisado:** para agrupar usuarios o canciones con características similares (clustering).
+- **Supervisado:** para predecir qué canción podría gustarle a un usuario.
+
+**Datos que probablemente necesita**
+- Canciones escuchadas  
+- Canciones saltadas  
+- Likes o playlists guardadas  
+- Género musical  
+- Datos de otros usuarios con gustos similares  
+
+---
+
+## 3. Uber
+
+**Problema que resuelve con ML**  
+Uber utiliza machine learning para calcular precios dinámicos, estimar tiempos de llegada y asignar conductores a pasajeros de forma eficiente.
+
+**Tipo de ML**  
+Refuerzo (y también modelos predictivos supervisados).
+
+**Por qué**  
+El sistema aprende continuamente a **optimizar decisiones en tiempo real**, como precios y asignaciones, basándose en resultados previos (demanda, disponibilidad de conductores, etc.).
+
+**Datos que probablemente necesita**
+- Ubicación de conductores y pasajeros  
+- Historial de viajes  
+- Demanda en diferentes zonas  
+- Tiempo de tráfico  
+- Horarios y eventos  
+
+---
+
+## 4. Gmail (Filtro de spam)
+
+**Problema que resuelve con ML**  
+Los filtros de spam clasifican automáticamente correos electrónicos como **spam o no spam** para proteger a los usuarios.
+
+**Tipo de ML**  
+Supervisado.
+
+**Por qué**  
+El sistema se entrena con ejemplos de correos previamente clasificados como spam o legítimos y aprende patrones para clasificar nuevos mensajes.
+
+**Datos que probablemente necesita**
+- Contenido del correo  
+- Palabras clave  
+- Dirección del remitente  
+- Historial de correos marcados como spam  
+- Metadatos del mensaje  
+
+---
+
+## 5. Mercado Libre (Argentina)
+
+Empresa argentina de comercio electrónico.
+
+**Problema que resuelve con ML**  
+Utiliza machine learning para **recomendar productos, ordenar resultados de búsqueda y detectar fraude** dentro de su marketplace.
+
+**Tipo de ML**  
+Supervisado y no supervisado.
+
+**Por qué**
+- **Supervisado:** para predecir qué productos pueden interesar al usuario o detectar transacciones fraudulentas.  
+- **No supervisado:** para segmentar usuarios o productos según comportamiento.
+
+**Datos que probablemente necesita**
+- Historial de compras  
+- Búsquedas realizadas  
+- Productos vistos  
+- Precios y características de productos  
+- Comportamiento de otros usuarios  
+
+---
+
+## Conclusión
+
+Machine learning se utiliza en muchos productos digitales para **analizar grandes volúmenes de datos y tomar decisiones automáticas**, como recomendar contenido, detectar fraude o optimizar servicios en tiempo real. Estas aplicaciones dependen principalmente de datos de comportamiento de los usuarios y modelos que aprenden patrones a partir de ellos.
