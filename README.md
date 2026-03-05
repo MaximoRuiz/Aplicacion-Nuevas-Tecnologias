@@ -107,10 +107,4 @@ Supervisado y no supervisado.
 - Búsquedas realizadas  
 - Productos vistos  
 - Precios y características de productos  
-- Comportamiento de otros usuarios  
-
----
-
-## Conclusión
-
-Machine learning se utiliza en muchos productos digitales para **analizar grandes volúmenes de datos y tomar decisiones automáticas**, como recomendar contenido, detectar fraude o optimizar servicios en tiempo real. Estas aplicaciones dependen principalmente de datos de comportamiento de los usuarios y modelos que aprenden patrones a partir de ellos.
+- Comportamiento de otros usuarios 
